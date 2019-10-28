@@ -41,7 +41,7 @@ for(let i=0;i<list.length;i++)
 
 //// Bai 12
 //Them diem
-let add=prompt('Enter your new score: ')
+add=prompt('Enter your new score: ')
 list.push(add)
 //Sap xep giam dan
 for(let i=0;i<=list.length;i++)
