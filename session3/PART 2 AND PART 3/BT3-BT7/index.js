@@ -26,7 +26,7 @@ for(let i=1;i<Danso.length;i++)
 console.log('Quân có dân số ít nhất là: ',Quan[a])
 
 
-//Bai 6
+//Bai 6....
 let Dientich=[117.43,9.224,43.35,12.04,9.96,10.09]
 let Matdo=[]
 let sum=0
