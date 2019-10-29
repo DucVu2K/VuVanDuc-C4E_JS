@@ -22,8 +22,8 @@ for(let i=0;i<list.length;i++)
 //// Bai 11
 //Sap xem giam dan
 let temp
-for(let i=0;i<list.length;i++)
-{for(let j=0;j<i+1;j++)
+for(let i=0;i<list.length-1;i++)
+{for(let j=i+1;j<list.length;j++)
    {     if(list[i]<list[j])
         {
             temp=list[i];
@@ -44,9 +44,9 @@ for(let i=0;i<list.length;i++)
 add=prompt('Enter your new score: ')
 list.push(add)
 //Sap xep giam dan
-for(let i=0;i<=list.length;i++)
-{for(let j=0;j<i+1;j++)
-    if(list[j]<list[i])
+for(let i=0;i<=list.length-1;i++)
+{for(let j=i+1;j<list.length;j++)
+    if(list[j]>list[i])
     {
         temp=list[i];
         list[i]=list[j];
@@ -62,9 +62,9 @@ for(let i=0;i<list.length;i++)
 //Them diem
 add=prompt('Enter your new score: ')
 list.push(add)
-for(let i=0;i<=list.length;i++)
-{for(let j=0;j<i+1;j++)
-    if(list[j]<list[i])
+for(let i=0;i<=list.length-1;i++)
+{for(let j=i+1;j<lisst.length;j++)
+    if(list[j]>list[i])
     {
         temp=list[i];
         list[i]=list[j];
