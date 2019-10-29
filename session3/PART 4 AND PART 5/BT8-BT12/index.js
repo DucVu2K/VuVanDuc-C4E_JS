@@ -24,7 +24,7 @@ for(let i=0;i<list.length;i++)
 let temp
 for(let i=0;i<list.length;i++)
 {for(let j=0;j<i+1;j++)
-   {     if(list[i]>list[j])
+   {     if(list[i]<list[j])
         {
             temp=list[i];
             list[i]=list[j];
