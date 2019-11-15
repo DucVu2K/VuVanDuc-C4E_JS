@@ -1,0 +1,19 @@
+#span0{
+    background: red;
+    display: inline;
+}
+#span1{
+    background: red;
+  }
+#span2{
+    background:#ffff00;
+    
+}
+#span4{
+    background: red;
+    display:block;
+}
+#span5{
+    background: rgb(17, 0, 255);
+}
+
