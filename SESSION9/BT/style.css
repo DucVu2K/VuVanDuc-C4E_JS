@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Wed{
+    width: 100%;
+    height: 1000px;
+}
+/* //////////////////////////////////////////// */
+.Header{
+    height:10%;
+    display: flex;
+    flex-direction: row;
+}
+#Logo{
+    width:20% ;
+    text-align: center;
+    background-color: rgb(97, 167, 149);
+}
+#Logo__1{
+    width:80%;
+    text-align: center;
+    background-color: rgb(112, 151, 190);
+}
+/* //////////////////////////////////////////// */
+.Menu{
+    height: 25%;
+}
+.Menu__1{
+    height: 20%;
+    text-align: center;
+    background-color:rgb(99, 107, 104);
+}
+.Menu__2{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+.Section{
+    text-align: center;
+    width: 33.33%;
+    border:1px solid black;
+    background-color: rgb(128, 180, 209);
+}
+/* //////////////////////////////////////////// */
+.Column{
+    text-align: center;
+    height: 60%;
+    display:flex;
+    flex-direction: row;
+}
+.Column__1{
+    width: 90%;
+    background-color:rgb(78, 143, 207);
+
+}
+.Column__2{
+    width: 10%;
+    background-color:rgb(97, 167, 149);
+}
+/* //////////////////////////////////////////// */
+.Footer{
+    text-align: center;
+    height: 5%;
+    background-color:rgb(99, 107, 104);
+}
