@@ -1,0 +1,158 @@
+* {
+    font-family: 'Lato';
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    background-color: rgb(248, 248, 250);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.abc {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.abc h3 {
+    padding: 20px;
+}
+
+.login {
+    padding: 20px;
+}
+
+.login button {
+    width: 80px;
+    height: 40px;
+    background: rgb(231, 233, 232);
+    border: 1px solid #35CE97;
+    border-radius: 88px;
+    font-size: 20px;
+    color:#35CE97;
+}
+
+#container {
+    height: 700px;
+}
+
+#container h1, #container p {
+    text-align: center;
+}
+
+#container h1 {
+    font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#container p {
+    margin-top: 10px;
+    color: #4f4f4f;
+    /* Viet hoa nhung chu dau */
+    text-transform: capitalize;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-form {
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    /* left: 355px; */
+    top: 253px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    padding: 60px 40px;
+}
+
+#container form div {
+    margin-left: 15px;
+}
+
+#container label {
+    color: #4f4f4f;
+}
+
+#container input {
+    width: 346px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+#container button {
+    width: 346px;
+    height: 40px;
+    margin-left: 15px;
+    background: #35CE97;
+    /* 1 */
+    border: 1px solid #35CE97;
+    box-sizing: border-box;
+    border-radius: 88px;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    /* Gray 6 */
+    color: #F2F2F2;
+}
+
+#footer {
+    background-color: #4F4F4F;
+    padding-top: 50px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-1 h3 {
+    color: #F2F2F2;
+    margin-bottom: 15px;
+}
+
+a, .text {
+
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.footer-2 {
+    margin-top: 100px;
+    margin-left: 20px;
+    color: #BDBDBD;
+}
+
+.footer__1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+
+.afooter__1{
+    margin-right: 100px;
+}
